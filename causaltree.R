@@ -9,10 +9,10 @@
 
 library(devtools)
 library(dplyr)
-library(causalTree)
 library(Matching)
 devtools::install_github("susanathey/causalTree")
-dataSet = read.csv("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.csv")
+library(causalTree)
+dataSet <- read.csv("http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/rhc.csv")
 head(dataSet)
 table(dataSet[,c("swang1", "death")])
 #集計に基づく処置効果は5%程度のようです。
