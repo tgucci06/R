@@ -1,4 +1,4 @@
-##ggplot勉強用２
+##ggplot勉強用 part2
 
 #参考URL：https://mrunadon.github.io/ggplot2/
 library(tidyverse)
